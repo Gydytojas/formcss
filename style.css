@@ -21,8 +21,8 @@ p {
 
 .formfield {
     background-color: rgb(70, 70, 70);
-    min-width: 520px;
-    width: 32%;
+    width: 96vw;
+    max-width: 530px;
     display: flex;
     flex-direction: column;
     align-items: center;   
@@ -78,6 +78,7 @@ p {
     border-radius: 6px;
     border: 0;
     padding: 8px 12px;
+    max-width: 95%;
 }
 
 .acceptbox {
@@ -123,7 +124,9 @@ p {
     border-radius: 4px;
     border: 0;
     font-weight: 700;
-    padding: 8px 134px;
+    width: 50vw;
+    max-width: 138px;
+    padding: 8px 10px;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
